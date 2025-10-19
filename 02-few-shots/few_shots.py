@@ -36,5 +36,5 @@ response = client.chat.completions.create(
 )
 
 
-print(f"Repuesta de {API_HOST}: \n")
+print("Response from GitHub Models: \n")
 print(response.choices[0].message.content)
